@@ -16,7 +16,7 @@ import {
 import { Avatar } from "react-native-elements";
 import { AntDesign, FontAwesome, Ionicons } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
-import * as firebase from "firebase";
+import firebase from "firebase/app";
 import { db, auth } from "../firebase";
 
 const ChatScreen = ({ navigation, route }) => {
